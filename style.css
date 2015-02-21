@@ -1,0 +1,145 @@
+html { min-height: 100%;
+	  position: relative;
+	}
+
+body {
+	font-family: 'Ek Mukta', sans-serif;
+	background: url(assets/img/bg.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  
+	  height: 100%;
+	  width: 100%;
+
+	}
+
+.site-wrapper {
+	background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+
+
+.navbar-inverse .navbar-inner {
+	background-image: none;
+	background-color: transparent;
+	}
+
+
+
+
+.details{
+	color:#fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	top:30%;
+	width:100%;
+	height:100%;
+	position: absolute;
+}
+
+.details h1{
+	font-size: 60px;
+	font-weight: 200;
+	line-height: 69px;
+}
+
+.details p{
+	font-size: 22px;
+	font-weight:200;
+	line-height: 35px;
+	margin-top:10px;
+
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus{
+	background-color: transparent;
+	color: #fff;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+	color:#a4bd99;
+	text-transform: uppercase;
+	}
+
+.navbar .nav {
+	float: right;
+}
+
+.navbar-inverse .navbar-inner {border-bottom-color: transparent;}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	height: 50px;
+	background-color: transparent;
+	color: #a4bd99;
+	font-size: 14px;
+	border-radius: 4px;
+	border: 1px solid #fff;
+	font-weight: 500;
+	font-family:  'Ek Mukta', sans-serif;
+	width: 230px;
+	margin-right:10px;
+}
+
+.form-control::-moz-placeholder {
+  color: #999;
+}
+.form-control:-ms-input-placeholder {
+  color: #999;
+}
+.form-control::-webkit-input-placeholder {
+  color: #999;
+}
+
+.btn-large {
+	width: 190px;
+	height:63px;
+}
+
+.btn-primary {
+	background-color: #065c27;
+	background-image: none;
+ 	color:;
+ 	font-family: 'Ek Mukta', sans-serif;
+ 	text-transform: uppercase;
+ 	}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active{background-color: #033617;}
+
+.navbar .nav > li {
+	margin-top: 11px;
+	font-size: 13.5px;
+	font-weight:900;}
+
+.navbar-fixed-top {
+	margin-top: 20px;
+}
+
+#main-home-box-form {padding-top:40px;}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: transparent;
+  color: #a4bd99;
+  font-family: 'Ek Mukta', sans-serif;
+}
+
+.text-muted {text-align: right;}
+.text-muted img{
+	
+	opacity: 0.7;
+	margin-right: 5px;
+}
